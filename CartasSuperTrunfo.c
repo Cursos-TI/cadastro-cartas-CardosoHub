@@ -7,22 +7,22 @@
 int main() {
   // Área para definição das variáveis para armazenar as propriedades das cidades
   // CARTA 1 - Belo Horizonte
-    char estado1 = MG;
+    char estado1 = "MG";
     char codigo1[10]= "M01";
     char cidade1[50]= "Belo Horizonte";
     int populacao1 = 2521564;
     float area1 = 331.41;
     float pib1= 105.82;
-    int pontosTuristicos1="25"; 
+    int pontosTuristicos1= 25; 
 
     // CARTA 2 - Contagem
-    char estado2="MG";
+    char estado2 ="MG";
     char codigo2[10] = "M02";
     char cidade2[50] = "Contagem";
-    int populacao2 ="668949";
+    int populacao2 = 668949 ;
     float area2 = 194.74;
     float pib2 =36.27;
-    int pontosTuristicos2 = "10";
+    int pontosTuristicos2 = 10;
 
   // Área para entrada de dados
     

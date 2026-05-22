@@ -7,7 +7,7 @@
 int main() {
   // Área para definição das variáveis para armazenar as propriedades das cidades
   // CARTA 1 - Belo Horizonte
-    char estado1 = "MG";
+    char estado1[50]= "Minas Gerais";
     char codigo1[10]= "M01";
     char cidade1[50]= "Belo Horizonte";
     int populacao1 = 2521564;
@@ -16,7 +16,7 @@ int main() {
     int pontosTuristicos1= 25; 
 
     // CARTA 2 - Contagem
-    char estado2 ="MG";
+    char estado2[50] = "Minas Gerais";
     char codigo2[10] = "M02";
     char cidade2[50] = "Contagem";
     int populacao2 = 668949 ;
@@ -24,21 +24,14 @@ int main() {
     float pib2 =36.27;
     int pontosTuristicos2 = 10;
 
-  // Área para entrada de dados
-    
-    
     printf("\n"); // Pula linha
 
-    // --- ENTRADA DE DADOS: CARTA 2 ---
-   
-    printf("\n========================================\n\n");
 
-  // Área para exibição dos dados da cidade
-  printf("--- CARTAS CADASTRADAS COM SUCESSO ---\n\n");
+    printf("--- CARTAS CADASTRADAS COM SUCESSO ---\n\n");
 
     // Exibindo Belo Horizonte
     printf("Carta 1:\n");
-    printf("Estado: %c\n", estado1);
+    printf("Estado: %s\n", estado1);
     printf("Código: %s\n", codigo1);
     printf("Nome da Cidade: %s\n", cidade1);
     printf("População: %d habitantes\n", populacao1);
@@ -48,7 +41,7 @@ int main() {
 
     // Exibindo Contagem
     printf("Carta 2:\n");
-    printf("Estado: %c\n", estado2);
+    printf("Estado: %s\n", estado2);
     printf("Código: %s\n", codigo2);
     printf("Nome da Cidade: %s\n", cidade2);
     printf("População: %d habitantes\n", populacao2);

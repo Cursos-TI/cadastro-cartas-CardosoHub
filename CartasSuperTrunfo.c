@@ -34,19 +34,20 @@ int main() {
     Densidade1 = populacao1 / area1;
     Densidade2 = populacao2 / area2;
 
-    // calculo pib
+    // calculo Pib per capita
     Pib_percapita1 = pib1 * 1000000000.0 / populacao1;
     Pib_percapita2 = pib2 * 1000000000.0/ populacao2;
 
     printf("\n"); // Pula linha
+    printf("----------------------------\n\n");
 
+    printf("***CARTAS CADASTRADAS COM SUCESSO ***\n\n");
 
-    printf("--- CARTAS CADASTRADAS COM SUCESSO ---\n\n");
-
+    printf("----------------------------\n");
     printf("----------------------------\n");
 
     // Exibindo Belo Horizonte
-    printf("Carta 1:\n");
+    printf("Carta 1\n");
     printf("Estado: %s\n", estado1);
     printf("Código: %s\n", codigo1);
     printf("Nome da Cidade: %s\n", cidade1);
@@ -58,9 +59,10 @@ int main() {
     printf("Pib per Capita: R$ %.2f reais\n", Pib_percapita1);
 
     printf("----------------------------\n");
+    printf("----------------------------\n");
 
     // Exibindo Contagem
-    printf("Carta 2:\n");
+    printf("Carta 2\n");
     printf("Estado: %s\n", estado2);
     printf("Código: %s\n", codigo2);
     printf("Nome da Cidade: %s\n", cidade2);
@@ -70,6 +72,8 @@ int main() {
     printf("Número de Pontos Turísticos: %d\n", pontosTuristicos2);
     printf("Densidade Populaciona: %.2f hab/km²\n", Densidade2);
     printf("Pib per Capita: R$ %.2f reais\n", Pib_percapita2);
+
+    printf("----------------------------\n");
 
      
     return 0;
